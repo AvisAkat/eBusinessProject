@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LearnEase - Online Education Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="LearnEase" name="keywords">
+    <meta content="Home Tutoring, Learn at the comfort of your home" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+233 345 234 6789</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>info@leanease.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>LeanEase</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                    <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="detail.html" class="dropdown-item">Course Detail</a>
+                            <a href="feature.html" class="dropdown-item">Our Features</a>
+                            <a href="team.html" class="dropdown-item">Instructors</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div> -->
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="studentRegistration.html" class="nav-item nav-link regist">Register as a Student</a>
+                    <a href="tutorRegistration.html" class="nav-item nav-link regist">Register as a Tutor</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Find a Tutor</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="tutorRequest.html" class="dropdown-item">Request a Tutor</a>
+                            <a href="allTutions.html" class="dropdown-item active">Find a Tutor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle btn btn-primary py-2 px-4 d-none d-lg-block" data-toggle="dropdown">Join Us</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="tutorRegistration.html" class="dropdown-item">As a Tutor</a>
+                        <a href="studentRegistration.html" class="dropdown-item">As a Student</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-1">Tutors</h1>
+            <div class="d-inline-flex text-white mb-5">
+                <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">All Tutors</p>
+            </div>
+            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Physics</a>
+                            <a class="dropdown-item" href="#">Computer Sciences</a>
+                            <a class="dropdown-item" href="#">Electronic Business</a>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control border-light" style="padding: 30px 25px;"
+                        placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary px-4 px-lg-5">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Tutors Search Form Start  -->
+    <div class="container-fluid py-5">
+        <div class="container py-5 search-tutor">
+            <div class="section-title text-center col-12 position-relative mb-5">
+                <h1 class="display-5">Tutor Search</h1>
+            </div>
+            <form>
+                <div class="row g-1">
+                    <div class="col-sm-3 mt-2">
+                        <input type="text" class="form-control" placeholder="Subject/Skill" aria-label="City">
+                    </div>
+                    <div class="col-sm-3 mt-2">
+                        <input type="text" class="form-control" placeholder="Location" aria-label="State">
+                    </div>
+                    <div class="col-sm-3 mt-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Education Level</option>
+                            <option value="1">Primary</option>
+                            <option value="2">Secondary</option>
+                            <option value="3">Tertiary</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 mt-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Teaching Mode</option>
+                            <option value="1">Online</option>
+                            <option value="2">In-Person</option>
+                            <option value="3">Both</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-12 text-center mt-4">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </form>
+
+            <hr style="margin-top: 6rem;margin-bottom: 0;" />
+        </div>
+    </div>
+
+    <!-- Tutors Search Form End  -->
+
+
+    <!-- Courses Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5 all-tution">
+            <div class="row">
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Yaw Mensah</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                    <button class="btn border-right">Core-Maths</button>
+                                    <button class="btn border-right">E-Maths</button>
+                                </p>
+                                <p class="card-text">As a passionate mathematics educator, I believe that every student
+                                    has the potential to excel in math. My teaching approach is centered around creating
+                                    a supportive and inclusive learning environment that fosters curiosity, creativity,
+                                    and critical thinking.
+                                    I encourage active participation, discussion, and collaboration to help students...
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Nungua</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            70.00/day</span></button>
+                                            <button class="btn"><i class="fa fa-star mr-2"></i>4.5</button>
+                                    <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Gloria Baah</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                </p>
+                                <p class="card-text">My teaching isn’t just about delivering lessons—it’s about creating
+                                    an experience. 🎯 With a student-centered approach, I blend interactive discussions,
+                                    real-world applications, and adaptive techniques to ensure every learner thrives.
+                                    The result? Confident, engaged students who don’t just memorize—they understand,
+                                    apply, and excel</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Tema</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            50.00/day</span></button>
+                                            <button class="btn"><i class="fa fa-star mr-2"></i>4.5</button>
+                                            <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Tony Stack</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                    <button class="btn border-right">C#</button>
+                                    <button class="btn border-right">Python</button>
+                                    <button class="btn border-right">C++</button>
+                                    <button class="btn border-right">Node js</button>
+                                </p>
+                                <p class="card-text">My teaching isn’t just about delivering lessons—it’s about creating
+                                    an experience. With a student-centered approach, I blend interactive discussions,
+                                    real-world applications, and adaptive techniques to ensure every learner thrives.
+                                    The result? Confident, engaged students who don’t just memorize—they understand,
+                                    apply, and excel</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Tema</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            50.00/day</span></button>
+                                    <button class="btn"><i class="fa fa-star mr-2"></i>4.5</button>
+                                    <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-5.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Jhon Doe</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                    <button class="btn border-right">Web dev</button>
+                                    <button class="btn border-right">PHP</button>
+                                    <button class="btn border-right">Laravel</button>
+                                    <button class="btn border-right">React</button>
+                                </p>
+                                <p class="card-text">My teaching isn’t just about delivering lessons—it’s about creating
+                                    an experience. With a student-centered approach, I blend interactive discussions,
+                                    real-world applications, and adaptive techniques to ensure every learner thrives.
+                                    The result? Confident, engaged students who don’t just memorize—they understand,
+                                    apply, and excel</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Legon</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            90.00/day</span></button>
+                                            <button class="btn"><i class="fa fa-star mr-2"></i>4.3</button>
+                                            <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-8.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Grace Kumah</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                    <button class="btn border-right">Economics</button>
+                                </p>
+                                <p class="card-text">My teaching isn’t just about delivering lessons—it’s about creating
+                                    an experience. With a student-centered approach, I blend interactive discussions,
+                                    real-world applications, and adaptive techniques to ensure every learner thrives.
+                                    The result? Confident, engaged students who don’t just memorize—they understand,
+                                    apply, and excel</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Tema</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            30.00/day</span></button>
+                                            <button class="btn"><i class="fa fa-star mr-2"></i>4.2</button>
+                                            <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-4 col-12 tutor-card">
+                    <div class="row">
+                        <div class=" p-1">
+                            <img src="img/team-9.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="cardContent">
+                            <div class="card-body">
+                                <h5 class="card-title">Hilda Afriyie</h5>
+                                <p style="overflow-x: hidden;display: flex;flex-wrap: wrap;">
+                                    <button class="btn border-right">French</button>
+                                    <button class="btn border-right">English</button>
+                                    <button class="btn border-right">Spanish</button>
+                                </p>
+                                <p class="card-text">My teaching isn’t just about delivering lessons—it’s about creating
+                                    an experience. With a student-centered approach, I blend interactive discussions,
+                                    real-world applications, and adaptive techniques to ensure every learner thrives.
+                                    The result? Confident, engaged students who don’t just memorize—they understand,
+                                    apply, and excel</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 6 hrs ago</small>
+                                    <button class="btn"><i class="fa fa-map-marker mr-2"></i>Tema</button>
+                                    <button class="btn"><span class="text-black-50" style="color: black;">💵 Ghc
+                                            150.00/weekly</span></button>
+                                            <button class="btn"><i class="fa fa-star mr-2"></i>4.6</button>
+                                            <a href="tutorProfile.html"><button class="btn btn-outline-primary">Details</button></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12" style="margin-top: 20px;">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination pagination-lg justify-content-center mb-0">
+                            <li class="page-item disabled">
+                                <a class="page-link rounded-0" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link rounded-0" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>LearnEase</h1>
+                    </a>
+                    <p class="m-0">A trusted home tutoring platform offering personalized in-person and online lessons,
+                        connecting students with expert tutors to achieve academic success and personal growth.</p>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h3 class="text-white mb-4">Newsletter</h3>
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-light" style="padding: 30px;"
+                                placeholder="Your Email Address">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p><i class="fab fa-whatsapp mr-2"></i>+233 345 234 6789</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+233 345 234 6789</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@learnease.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4">Our Courses</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
+                        <a class="text-white-50" href="course.html"><i class="fa fa-angle-right mr-2"></i>Many
+                            More...</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms &
+                            Condition</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
+                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 border-top py-4"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">LearnEase</a>. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Designed by <a class="text-white" href="#">AvisAkat</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i
+            class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
