@@ -10345,11 +10345,19 @@ h6,
 
 /* SUBSCRIPTION PAGE  */
 .subscription-page .card {
-  width: 100%;
+  width: 95%;
   max-width: 29rem;
   /* min-width: 20rem; */
   border-radius: 10px;
    margin: 2px 15px;
+}
+
+.subscription-page .card-title {
+  font-size: 35px;
+}
+
+.subscription-page .listing-features {
+  font-size: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -10410,6 +10418,14 @@ h6,
   }
   .tutor-card .row .p-1 {
     display: none;
+  }
+
+  .subscription-page .card-title {
+    font-size: 29px;
+  }
+  
+  .subscription-page .listing-features {
+    font-size: 17px;
   }
 }
 
